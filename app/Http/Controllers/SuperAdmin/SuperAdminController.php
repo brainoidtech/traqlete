@@ -37,9 +37,9 @@ class SuperAdminController extends Controller
 
             session()->forget('department_id');
 
-            $data['topmenu'] = 'Dashboard';
-            $data['submenu'] = 'Dashboard';
-            $data['pagetitle'] = 'Dashboard';
+            $data['topmenu'] = 'Dashboard2';
+            $data['submenu'] = 'Dashboard2';
+            $data['pagetitle'] = 'Dashboard2';
 
             $depts =  $this->dept->getDeptData($deptName);
             // for search dept
