@@ -1,0 +1,661 @@
+/*Custom Styles*/
+
+/* Root */
+#kt_app_root {
+    background: #fff !important;
+}
+
+body {
+    font-family: 'Poppins', Medium !important;
+}
+
+label {
+    color: #686666 !important;
+}
+
+input{
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+input[type="select"]{
+    color: #000 !important;
+    font-weight: 400 !important;
+}
+
+/* For all input elements with a placeholder */
+input::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* Change this to your desired placeholder color */
+}
+
+/* For textareas */
+textarea::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* Change this to your desired placeholder color */
+}
+
+/* Change placeholder text color in date input */
+input[type="date"]::-webkit-input-placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* Change to your preferred color */
+}
+
+input[type="date"]::-moz-placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* Firefox */
+}
+
+input[type="date"]:-ms-input-placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* Edge */
+}
+
+input[type="date"]::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+    /* For other browsers */
+}
+
+
+
+input[type="file"]::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+}
+
+input[type="select"] option::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+}
+
+
+input[type="email"]::placeholder {
+    color: #000000 !important;
+    font-weight: 400 !important;
+}
+
+.label-title {
+    font-size: 1.275rem !important;
+}
+
+.btn-yellow.active {
+    background-color: #F9C301 !important;
+    /* font-size: 16px !important; */
+    border: none;
+    padding: 6px 20px !important;
+    /* border-radius: 10px; */
+    color: #000 !important;
+}
+.btn-yellow {
+    padding: 6px 20px !important;
+}
+
+.btn-border {
+    border: 1px solid #F9C301 !important;
+}
+
+.txt-red {
+    color: #ff4500 !important;
+    font-size: 16px !important;
+}
+
+.txt-yellow {
+    color: #F9C301 !important;
+    font-size: 16px !important;
+
+}
+
+.txt-blue {
+    color: #5E9FF1 !important;
+    font-size: 16px !important;
+}
+
+.bg-yellow {
+    background-color: #F9C301 !important;
+    ;
+}
+
+.pills-sm.active {
+    background: #f9c301 !important;
+    padding: 7px 20px !important;
+}
+
+.pills-sm {
+    border: 1px solid #f9c301 !important;
+    padding: 7px 20px !important;
+    color: #000 !important;
+}
+
+a.btn-tab.nav-link.btn.pills-sm.active:hover {
+    color: #f9c301 !important;
+    border: 1px solid #f9c301 !important;
+    background: none !important;
+}
+
+a.btn-tab.nav-link.btn.pills-sm.active {
+    color: #000 !important;
+}
+
+
+/* General Padding */
+
+.p-0-0 {
+    padding: 0px 0px !important;
+}
+
+/* General Padding */
+
+/* Table Styling */
+
+.table {
+    border: none !important;
+    border-collapse: collapse;
+    margin: 0px !important;
+    border-color: #DCDCDC !important;
+}
+
+
+/* th, td {
+  border: none; /* remove all borders 
+  padding: 8px;
+}
+
+/* Add inner vertical borders between columns 
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid #ddd;
+}/*
+
+/* Remove bottom border of the last row */
+/* tbody tr:last-child td {
+    border-bottom: none;
+} */
+
+tbody tr:last-child td {
+    border-bottom: 1px solid #DCDCDC;
+}
+/* thead tr th {
+    border-top: none;
+} */
+thead tr th {
+    border-top: 1px solid #DCDCDC;
+    font-weight: 600 !important;
+   
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}
+
+th:last-child,
+td:last-child {
+    border-right: none;
+}
+
+.table-bordered> :not(caption)>*>* {
+    border-width: 1px !important;
+    border-color: #DCDCDC !important;
+}
+
+.table-bordered> :not(caption)>* {
+    border-width: 1px 1px;
+    border-color: #DCDCDC !important;
+}
+
+tbody tr:last-child {
+    border: 0px !important;
+}
+
+
+/* .table-sec tr td:first-child,
+.table-sec tr th:first-child {
+    padding-left: 2.25rem !important;
+} */
+
+.table-sec tr td,
+.table-sec tr th {
+    padding-left: 2.25rem !important;
+}
+
+.table-sec tr td:last-child,
+.table-sec tr th:first-child {
+    padding-right: 2.25rem !important;
+}
+
+/* 
+.table-sec thead tr {
+    background-color: #F5F8FB;
+} */
+
+/*Apply background color to every even-numbered row (starting from the 2nd row) */
+ /* tbody.alternating-rows tr:nth-child(2n) {
+    background-color: #F5F8FB;
+} */
+
+/* Table Styling */
+
+/* Root */
+
+/* Header */
+#kt_app_header_container {
+    background-color: #fff !important;
+    border-bottom: 1px solid #DCDCDC !important;
+}
+
+/* Header */
+
+/* Sidebar */
+/* Logo */
+#kt_app_sidebar_logo {
+    height: auto !important;
+}
+
+#kt_app_sidebar_logo a {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+img.app-sidebar-logo-default {
+    width: 60% !important;
+}
+
+img.app-sidebar-logo-minimize {
+    width: 100% !important;
+}
+
+.top-20 {
+    top: 20% !important;
+}
+
+.top-20.active {
+    top: 50% !important;
+}
+
+
+/* Form Styling */
+.form-control {
+    background-color: #ffffff00;
+}
+
+/* Form Styling */
+
+/* Logo */
+
+/* Sidebar Navigation */
+
+
+/* [data-kt-app-layout=dark-sidebar] .app-sidebar {
+  background-color: #0D0E12 !important;
+  border-right: 0;
+} */
+/* .app-sidebar{
+    background-color: #f5f8fb !important;
+} */
+[data-kt-app-layout=dark-sidebar] .app-sidebar {
+    background-color: #f5f8fb !important;
+    border-right: 1px solid #DCDCDC !important;
+}
+
+/* Default menu title color */
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-title{
+    color: #000000 !important;
+}
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-title:hover{
+    color: #5E9FF1 !important;
+}
+/* Parent active (accordion header) */
+[data-kt-app-layout=dark-sidebar] 
+.app-sidebar .menu .menu-item.here > .menu-link .menu-title {
+    color: #5E9FF1 !important;
+}
+
+/* INNER submenu ACTIVE LINK (THIS FIXES YOUR ISSUE) */
+[data-kt-app-layout=dark-sidebar] 
+.app-sidebar .menu .menu-sub .menu-link.active {
+    background-color: rgba(94, 159, 241, 0.12) !important;
+}
+
+[data-kt-app-layout=dark-sidebar] 
+.app-sidebar .menu .menu-sub .menu-link.active .menu-title {
+    color: #5E9FF1 !important;
+    font-weight: 600;
+}
+
+/* Hover for submenu */
+[data-kt-app-layout=dark-sidebar] 
+.app-sidebar .menu .menu-sub .menu-link:hover .menu-title {
+    color: #5E9FF1;
+}
+
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .app-sidebar-logo {
+    border-bottom: 0px dashed #1F212A !important;
+}
+
+.icon-2x {
+    font-size: 21px !important;
+    color: #ff4500 !important;
+}
+
+.sidebar-menu-divider{
+    color: #DBD5D5 !important;
+    margin: 0px;
+    height: 2px;
+    background-color:#DBD5D5;
+}
+
+.menu-link i{
+    font-size: 20px !important;
+}
+
+/* Sidebar Navigation */
+
+.logout-btn .ki-duotone {
+    margin-right: 0.5rem;
+}
+
+#kt_app_sidebar .btn-custom:hover:not(.btn-active) {
+    background-color: #f5f8fb !important;
+}
+
+.logout-btn {
+    background: #f5f8fb !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    color: #ff4500 !important;
+}
+
+.logout-btn .ki-duotone {
+    color: #ff4500;
+}
+
+/* Sidebar */
+
+/* Dashboard Page */
+
+.col-md-6 .b-0 {
+    border: 0px !important;
+}
+
+.card {
+    border: 1px solid #DCDCDC !important;
+}
+
+.card.db-tile .card-header,
+.card.db-tile .card-body {
+    padding: 10px 20px !important;
+}
+
+.card.db-tile .card-header {
+    padding-top: 20px !important;
+}
+
+.card.db-tile .card-body {
+    padding-bottom: 20px !important;
+}
+
+.card-body.p-0-0 {
+    padding: 0px !important;
+}
+
+.table-sec.card .card-header {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+/* Dashboard Page */
+
+/* Attendance Page */
+
+/*radio buttons */
+.common-form input:not([type="radio"]),
+.common-form textarea {
+    background-color: transparent !important;
+    border: 1px solid #DCDCDC !important;
+}
+
+/* .card-height {
+            HEIGHT: 80VH;
+        } */
+.form-check-input:checked {
+    background-color: #f9c301 !important;
+    border-color: #F9C301 !important;
+}
+
+.btn-box {
+    border-top: 1px solid #DCDCDC !important;
+}
+
+.input-group-addon {
+    padding: 14px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    column-gap: 10px;
+}
+
+input#search {
+    border-radius: 5px;
+}
+
+span.input-group-addon {
+    border: transparent;
+    border-radius: 5px !important;
+}
+
+select.entries {
+    padding: 5px;
+    border-color: #DCDCDC;
+    color: #686666;
+    border-radius: 5px;
+}
+
+
+/* Third Tab */
+.date {
+    color: #5E9FF1;
+}
+
+td.present {
+    color: #5E9FF1 !important;
+    font-weight: normal !important;
+}
+
+td.absent {
+    color: #F16937 !important;
+    font-weight: normal !important;
+}
+
+.page-link.active,
+.active>.page-link {
+    background-color: #F9C301 !important;
+    color: #000 !important;
+}
+
+/* .page-link:hover {
+    color: #F9C301 !important;
+} */
+
+td {
+    font-size: 13px;
+}
+
+/* Attendance Page */
+
+/* Player Profile page */
+
+.present {
+    color: #5E9FF1;
+    font-weight: bold !important;
+}
+
+.absent {
+    color: #F9C301;
+    font-weight: bold !important;
+}
+
+.validation {
+    color: #21BE03;
+    font-weight: bold !important;
+}
+
+/* Tabs */
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    border: none !important;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #F9C301 !important;
+}
+
+.nav-link:hover {
+    color: #F9C301 !important;
+}
+
+a.btn-yellow.btn.btn-sm.btn-primary.align-self-center {
+    color: #000;
+}
+
+a.btn-yellow.btn.btn-sm.btn-primary.text-dark-500:hover {
+    background-color: #F9C301 !important;
+    border-color: #F9C301 !important;
+    color: #000 !important;
+}
+
+/* button.qr-generate{
+            MARGIN-LEFT: -40PX !IMPORTANT;
+        } */
+
+/* Player Profile page */
+
+/* Footer */
+.app-footer {
+    height: auto !important;
+}
+
+.app-footer {
+    border-top: 1px solid #DCDCDC !important;
+}
+
+/* Footer */
+
+/* Responsive CSS */
+@media (max-width: 991.98px) {
+    .app-sidebar-logo {
+        display: block !important;
+    }
+}
+
+/*Custom Styles*/
+/* Icon colors for list page */
+.bi-eye-fill {
+    color: #84857E !important;
+}
+
+.bi-printer-fill {
+    color: #84857E !important;
+}
+
+/* Form heading */
+.form-inner-head {
+    padding-top: 40px;
+}
+
+.form-head {
+    padding-top: 10px;
+}
+
+.delete-btn i {
+    font-size: 40px;
+    padding: 10px;
+    color: #F16937;
+}
+
+
+/* For Serach bar and entries */
+.custom-datatable-header {
+    padding: 10px;
+    align-items: center;
+}
+
+.custom-datatable-header label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.ml-auto div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.bottom {
+    padding: 10px;
+    align-items: center;
+}
+
+/* For Serach bar and entries */
+.top {
+    padding: 10px;
+    align-items: center;
+}
+
+.top label {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.ml-auto div {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px !important;
+}
+
+.bottom {
+    padding: 10px;
+    align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+    .top {
+        display: flex !important;
+        justify-content: space-between !important;
+        margin-top: 0px !important;
+    }
+
+    .bottom {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+}
+
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date{
+    text-align: left !important;
+}
